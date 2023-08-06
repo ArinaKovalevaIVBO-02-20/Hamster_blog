@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Stalinist+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap');
 
 :root{
     --bg: #1C1C1E;
@@ -7,125 +8,91 @@
     --orange: #FF9F46;
     --white: #fff;
 }
-*{
-    background-color: var(--bg);
-    color: var(--white);
-    overflow-x: hidden;
-}
-.main h3{
-font-size: 5px;
-font-family: 'San Francisco';
-justify-content: center;
-display: flex;
-outline: none;
-background-color: transparent;
-margin: 0 0;
-}
-.main{
+
+header{
     background-image: url(../img/bg_small.png);
-    border-radius: 3px;
     background-size: no-repeat;
     background-position: center center;
     background-size: cover;
-   
 }
-
-.text-hello, .name, .explore-more, .btn{
-    justify-content: center;
-display: flex;
-outline: none;
-background-color: transparent;
-flex-direction: column;
-
+.name{
+    font-family: 'Stalinist One';
+    margin-top: 30%;
+    padding-bottom: 3%;
 }
 .name h3{
-   padding-top: 34px;
-   /* padding-bottom: 10%; */
-   font-size: 20px;
-   font-family: 'Stalinist One';
+    font-size: 5vw;
 }
-.text-hello{
-    padding-top: 5px;
+h3{
+    font-size: 3vw;
 }
-img, a{
-    width: 30%;
-    outline: none;
-    background-color: transparent;
-    padding-right: 10px;
-}
-.img-hamster{
-    display: flex;
-    justify-content: end;
-    outline: none;
-background-color: transparent;
-}
-.img-hamster a{
-    position: absolute;
-    text-decoration: none;
-    font-size: 10px;
-    font-family: 'Open Sans';
-    left: 75%;
-    top:25%;
-}
-.explore-more{
-    font-size: 3px;
-    background-color: var(--orange);
-    margin: 5px auto;
-    width: 50%;
-    height: 8px;
-    border-radius: 1px;
-   display: block;
-   text-align: center;
-    padding-top: 3px;
-    font-family: 'Open Sans';
+.hello{
+
+    padding-top: 3%;
+    font-family: 'Bebas Neue';
+    text-transform: uppercase;
     font-weight: bold;
 }
-.explore-more a{
+.line a{
+    font-family: 'Bebas Neue';
+    text-transform: uppercase;
     text-decoration: none;
+    color: var(--white);
 }
-.btn{
-    margin-bottom: 5px;
+.line,.click{
+    padding-top: 2%;
+    font-size: 3vw;
+    background-color: var(--orange);
+    padding-bottom: 1%;
+    border-radius: 2%;
 }
-.about{
-font-size: 4px;
-font-family: 'Open Sans';
-background-color: #2E2E2E;
-border-radius: 3px;
-outline: none;
-margin-top: 10px;
-padding-bottom: 7px;
+p, .click{
+    font-size: 3vw;
 }
-.about p, .first-fact, .circle, .description{
-outline: none;
-background-color: transparent;
-padding-left: 10px;
-margin-bottom: 1px;
+
+main{
+    padding-top: 3%;
+    background-color: var(--form);
 }
-.about .line{
-    background-color: #fff;
-    height: 1px;
-    width: 22px;
+.header{
+    font-family: 'Bebas Neue';
+    text-transform: uppercase;
+
+    margin-left: 2vw;
+    margin-bottom: 1vw;
 }
-.first-fact{
-    display: inline-block;
-}
+
 .circle{
-    display: inline-block;
+    font-size: 3vw;
+    border: 0.2vw solid var(--white);
+    border-radius: 50%;
     position: absolute;
-    margin-top: 5px;
-    border: 1px solid var(--white);
-    border-radius: 50px;
-    padding: 3px 4.5px;
+    padding: 1vw 2.1vw;
+    display: inline-block;
+    text-align: center;
+    margin-left: 4%;
+
+}
+.text-about{
+    font-size: 2vw;
+    text-align: justify;
+}
+.click a{
+    text-decoration: none;
+    color: var(--white);
+    font-family: 'Bebas Neue';
+    text-transform: uppercase;
+    
+}
+.click{
+    margin: 10% 20%;
+}
+.main-text{
+    margin-right: 3vw;
+}
+.itd-text{
+    font-size: 5vw;
 }
 span{
     color: var(--orange);
-    background-color: transparent;
-}
-.description{
-    text-align: justify;
-    margin-right: 10px;
-}
-.text-about{
-text-transform: uppercase;
-font-weight: bold;
 }
